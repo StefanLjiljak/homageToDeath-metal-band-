@@ -1,0 +1,49 @@
+:root {
+    --primary-color: rgba(104, 104, 104, 0.7);
+}
+
+.showcase::before {
+    background: url('../img/9HN2B3.jpg') no-repeat center top/cover;
+}
+
+.showcase {
+    height: 100vh;
+}
+
+.showcase h1 {
+    font-size: 3.2rem;
+    margin: 1rem 0;
+}
+
+.showcase .showcase-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    height: 100%;
+}
+
+#guitar {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.showcase .showcase-inner img {
+    width: 90%;
+    height: 75%;
+    opacity: 0.666;
+}
+
+.showcase .showcase-inner img:hover {
+    /* width: 99.9vw;
+    height: 99.9vh; */
+    opacity: 1;
+    /* position:fixed; */
+    /* top: 0;
+    left: 0; */
+    border: black solid 3px;
+    transform: scale(1.2, 1.1);
+    cursor: pointer;
+}
